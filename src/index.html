@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Formou</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link media="all" type="text/css" rel="stylesheet" href="css/libs.min.css">
+  <link media="all" type="text/css" rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+  <main class="page page-comportamento">
+    <section class="form__comportamento">
+      <div class="container">
+        <form method="POST" action="#" class="form form--js">
+          <div class="form__control form__control-checkbox" max-checkbox-selected="2" section-required>
+            <h2>Aqui é Body Builder?</h2>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="body_builder[]" value="Eu quero esse 13 daqui a pouquinho aí">
+                <span>Eu quero esse 13 daqui a pouquinho aí</span>
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="body_builder[]" value="Tá saindo da jaula o monstro">
+                <span>Tá saindo da jaula o monstro</span>
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="body_builder[]" value="Sabe o que é isso daí">
+                <span>Sabe o que é isso daí</span>
+              </label>
+            </div>
+            <div class="checkbox checkbox-input">
+              <label>
+                <input type="checkbox" name="body_builder[]" class="toggleForm--js" value="Outros">
+                <span>Outros</span>
+              </label>
+              <div class="form__group-hidden">
+                <input type="text" placeholder="Trapézio" name="body_builder[]" class="input">
+              </div>
+            </div>
+          </div>
+          <div class="form__control form__control-checkbox form__control-social" section-required>
+            <h2 class="title-section">¿Plata o plomo?</h2>
+            <p class="text">Bueno … en mi opinión, una cárcel en Estados Unidos es peor que la muerte.</p>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="plomo[]" value="Yo no quiero ser bueno">
+                <span>Yo no quiero ser bueno</span>
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="plomo[]" value="No soy una persona rica">
+                <span>No soy una persona rica</span>
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="plomo[]" value="Voy a ser grande">
+                <span>Voy a ser grande</span>
+              </label>
+            </div>
+            <div class="checkbox checkbox-textarea">
+              <label>
+                <input type="checkbox" name="plomo[]" class="toggleForm--js" value="Outros">
+                <span>Outros</span>
+              </label>
+              <div class="form__group-hidden">
+                <textarea name="plomo[]" id="" class="textarea" placeholder="Soy pobre persona SEM dinero" rows="5"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="form__control form__control-radio form__control-planosdinheiro" section-required>
+            <h2>k-3po windu windu jinn?</h2>
+            <div class="radio">
+              <label>
+                <input type="radio" name="windu[]" value="Sim">
+                <span>Anakin solo skywalker</span>
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="windu[]" value="Não">
+                <span>Bothan c-3po ackbar ponda</span>
+              </label>
+            </div>
+            <div class="radio radio-input">
+              <label>
+                <input type="radio" name="windu[]" class="toggleForm--js" value="Sim">
+                <span>Outros</span>
+              </label>
+              <div class="form__group-hidden">
+                <input type="text" placeholder="Chewbacca skywalker kenobi skywalker" name="windu[]" class="input">
+              </div>
+            </div>
+          </div>
+          <div class="form__control form__control-radio form__control-planosdinheiro">
+            <h2>These are the voyages of the Starship Enterprise?</h2>
+            <div class="radio">
+              <label>
+                <input type="radio" name="continuing[]" value="Sim">
+                <span>Its continuing mission</span>
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="continuing[]" value="Não">
+                <span>To explore strange new worlds</span>
+              </label>
+            </div>
+            <div class="radio radio-textarea">
+              <label>
+                <input type="radio" name="continuing[]" class="toggleForm--js" value="Sim">
+                <span>Outros</span>
+              </label>
+              <div class="form__group-hidden">
+                <textarea name="continuing[]" id="" class="textarea" placeholder="To seek out new life and new civilizations" rows="5"></textarea>
+              </div>
+            </div>
+          </div>
+          <div class="form__control form__control-column form__control-gostos">
+            <h2>Eiiitaaa Mainhaaa?</h2>
+            <div class="form__group">
+              <textarea class="textarea" placeholder="Tu du du pááá!" name="Mainhaaa" id="" rows="5"></textarea>
+            </div>
+          </div>
+          <div class="form__control form__control-column form__control-gostos" section-required>
+            <h2>Migas etsy put a bird on it meditation?</h2>
+            <div class="form__group">
+              <input type="text" name="meditation" class="input" placeholder="Food truck fam umami waistcoat trust fund flannel listicle">
+            </div>
+          </div>
+          <div class="form__control form__control-column">
+            <div class="form__group">
+              <input type="hidden" name="action" value="createquest">
+              <button class="button button-send button-send--js is-primary">Yeah</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

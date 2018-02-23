@@ -1,0 +1,66 @@
+.form__control
+  display: flex
+  padding: 20px
+  border: 1px solid transparent
+  &:not(:last-child)
+    margin-bottom: 20px
+  h2
+    font-size: 1.4rem
+    margin-bottom: 15px
+    font-weight: bold
+
+  .checkbox-input,
+  .radio-input
+    display: flex
+    align-items: center
+    label
+      width: auto
+      flex: 0 1 auto
+      margin-right: 15px
+    div
+      flex: 1
+
+.form
+  margin: 0 auto  
+  width: 70%
+  @media #{$mobile}
+    width: 100%
+    padding: 0 15px
+
+  .text
+    margin-bottom: 15px
+
+.form__control-checkbox, 
+.form__control-radio,
+.form__control-column
+  flex-flow: column
+
+.form__control-checkbox
+  .checkbox
+    width: 100%
+    span
+      font-size: 1rem
+    label
+      width: auto
+      float: left
+    &:not(:last-child)
+      margin-bottom: 10px
+
+.form__control-radio
+  .radio
+    width: 100%
+    margin-left: 0
+    span
+      font-size: 1rem
+    label
+      width: auto
+      float: left
+    &:not(:last-child)
+      margin-bottom: 10px
+
+.form__group-hidden
+  display: none
+
+  textarea
+    margin-top: 15px
+    float: left
