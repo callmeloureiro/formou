@@ -13,6 +13,9 @@ Mas, porém, contudo, todavia, a paixão em codificar é maior e conseguimos faz
 
 Portanto, nasce o **Formou**, um pequeno template para te facilitar e economizar tempos em na produção de perguntas e respostas!
 
+## Exemplo
+[Exemplo online](http://formou.surge.sh/)
+
 **instalação**
 ````sh
 $ npm run start
@@ -49,11 +52,6 @@ $ npm run WINDOWNOW
 | Sabia que dá pra deixar o campo obrigatório apenas com um atributo? Pois é, basta utilizar deste no qual estamos falando. Ele diz pro script que os campos que está aqui abaixo devem conter algum conteúdo  no input ou checkboxes. |    section-required   |              -             |
 | Com este atributo você consegue determinar um limite para a  quantidade de checks na sessão. Muito útil para: "Você tem 3 escolhas mediante a essas 10 respostas".                                                                   | max-checkbox-selected | x (quantidade de escolhas) |
 
-----
-
-> Ao rodar o projeto na sua máquina, abrirá exemplos de uso :D
-
----
 
 ## Contribuindo
 
