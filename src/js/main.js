@@ -96,10 +96,12 @@ $formSend.submit(function(e) {
         });
       }
 
-      const $noValueChecked = that.find('input[type="checkbox"]:checked, input[type="radio"]:checked').length === 0;
-      if ($noValueChecked) {
-        error++;
-        setAlertBorder(that, 'error');
+      if( that.find( 'input[type="checkbox"], input[type="radio"]' ).length > 0 ) {
+        const $noValueChecked = that.find('input[type="checkbox"]:checked, input[type="radio"]:checked').length === 0;
+        if ($noValueChecked) {
+          error++;
+          setAlertBorder(that, 'error');
+        }
       }
     });
   }
